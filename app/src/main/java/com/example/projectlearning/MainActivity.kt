@@ -46,15 +46,15 @@ class MainActivity : ComponentActivity() {
 }
 
 //1  - build gradle implementation
-// dependencies {
+//     dependencies {
 //        classpath "com.google.dagger:hilt-android-gradle-plugin:2.40.5"
-//    }
-//2 - implementation "com.google.dagger:hilt-android:2.38.1"
-//    kapt "com.google.dagger:hilt-android-compiler:2.37"
-//    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03"
+//     }
+//2 - implementation "com.google.dagger:hilt-android:2.42"
+//    kapt "com.google.dagger:hilt-android-compiler:2.42"
 //    kapt "androidx.hilt:hilt-compiler:1.0.0"
+//    kapt "org.jetbrains.kotlinx:kotlinx-metadata-jvm:0.4.2"
 //    implementation 'androidx.hilt:hilt-navigation-compose:1.0.0-alpha03'
 //3 - id 'kotlin-kapt'
-//id 'dagger.hilt.android.plugin'
+//    id 'dagger.hilt.android.plugin'
 //4 - creating instance of BaseApplication
-//5 Manifest File - android:name=".BaseApplication"
+//5 - Manifest File - android:name=".BaseApplication"
